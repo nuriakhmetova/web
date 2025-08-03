@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.cards {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  gap: 2px;
+}
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-end;  
+    padding: 20px;
+}
+.cards h2 {
+  color: white;
+  text-shadow: 1px 1px 4px black;
+  text-align: left;
+ 
+
+}
+.card h4 {
+    color: rgba(255, 255, 255, 0.671);
+    text-shadow: 1px 1px 4px black;
+    text-align: left;
+    padding-bottom: 40px;
+    font-weight: 100;
+}
+
+.card:hover {
+    scale: 1.1;
+    transition: 0.3s;
+    }
+.back-link {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+
+}  
